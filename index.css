@@ -14,8 +14,8 @@
     --space-medium: 1rem;
 
     /*Screen Sizes*/
-    --desktop-screen: 90rem;
-    --mobile-screen: 23.4375rem;
+    --desktop-screen: 90rem; /*1440px*/
+    --mobile-screen: 23.4375rem; /*375px*/
 }
 
 * {
@@ -40,7 +40,7 @@ body {
     text-align: center;
 }
 
-@media (min-width: var(--desktop-screen)) {
+@media (min-width: 1440px) {
     .card {
         flex-direction: row;
     }
