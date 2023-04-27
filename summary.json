@@ -1,0 +1,22 @@
+[
+    {
+        "name":"Reaction",
+        "color":"red",
+        "value": 80
+    },
+    {
+        "name":"Memory",
+        "color":"yellow",
+        "value": 92
+    },
+    {
+        "name":"Verbal",
+        "color":"green",
+        "value": 61
+    },
+    {
+        "name":"Visual",
+        "color":"blue",
+        "value": 72
+    }
+]
