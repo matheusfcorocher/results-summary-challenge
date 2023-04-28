@@ -22,11 +22,14 @@
 
     /*Typography*/
     --font-family: 'Hanken Grotesk', sans-serif;
+    
     --font-weight-small: 500;
     --font-weight-medium: 700;
     --font-weight-large: 800;
-    --font-size-medium: 1.1rem;
-    --font-size-large: 1.25rem;
+
+    --font-size-small: 1.125rem;
+    --font-size-medium: 1.5rem;
+    --font-size-large: 2rem;
 
     /*Spacing*/
     --space-medium: 1rem;
@@ -52,7 +55,6 @@ body {
 
 .card {
     width: 18rem;
-
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -63,4 +65,48 @@ body {
     .card {
         flex-direction: row;
     }
+}
+
+.result-section {
+    padding: var(--space-medium);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.result-title {
+    margin-bottom: var(--space-medium);
+    font-size: var(--font-size-medium);
+}
+
+.result-score {
+    margin-bottom: var(--space-medium);
+    font-size: var(--font-size-small);
+}
+
+.result-score span {
+    display: block;
+    clear: both;
+    font-size: var(--font-size-large);
+}
+
+.result-meaning {
+    margin-bottom: var(--space-medium);
+
+    font-size: var(--font-size-medium);
+}
+
+.result-text {
+    margin-bottom: var(--space-medium);
+    font-size: var(--font-size-small);
+}
+
+.summary-section {
+    padding: var(--space-medium);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
 }
