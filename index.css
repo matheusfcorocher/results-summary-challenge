@@ -77,29 +77,36 @@ body {
 
 .result-title {
     margin-bottom: var(--space-medium);
+    
     font-size: var(--font-size-medium);
+    font-weight: var(--font-weight-small);
 }
 
 .result-score {
     margin-bottom: var(--space-medium);
     font-size: var(--font-size-small);
+    font-weight: var(--font-weight-small);
 }
 
 .result-score span {
     display: block;
     clear: both;
     font-size: var(--font-size-large);
+    font-weight: var(--font-weight-large);
 }
 
 .result-meaning {
     margin-bottom: var(--space-medium);
 
     font-size: var(--font-size-medium);
+    font-weight: var(--font-weight-large);
 }
 
 .result-text {
     margin-bottom: var(--space-medium);
+    
     font-size: var(--font-size-small);
+    font-weight: var(--font-weight-small);
 }
 
 .summary-section {
