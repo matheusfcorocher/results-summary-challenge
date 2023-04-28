@@ -22,6 +22,9 @@
 
     /*Typography*/
     --font-family: 'Hanken Grotesk', sans-serif;
+    --font-weight-small: 500;
+    --font-weight-medium: 700;
+    --font-weight-large: 800;
     --font-size-medium: 1.1rem;
     --font-size-large: 1.25rem;
 
