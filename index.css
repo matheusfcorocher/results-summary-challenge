@@ -87,6 +87,7 @@ body {
 
 .result-score {
     margin-bottom: var(--space-medium);
+    background: var(--violet-blue);
     
     font-size: var(--font-size-small);
     font-weight: var(--font-weight-small);
