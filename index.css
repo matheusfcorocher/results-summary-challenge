@@ -77,15 +77,18 @@ body {
 
 .result-title {
     margin-bottom: var(--space-medium);
-    
+
     font-size: var(--font-size-medium);
     font-weight: var(--font-weight-small);
+    color: var(--dark-gray-blue);
 }
 
 .result-score {
     margin-bottom: var(--space-medium);
+    
     font-size: var(--font-size-small);
     font-weight: var(--font-weight-small);
+    color: var(--dark-gray-blue);
 }
 
 .result-score span {
@@ -93,6 +96,7 @@ body {
     clear: both;
     font-size: var(--font-size-large);
     font-weight: var(--font-weight-large);
+    color: var(--white);
 }
 
 .result-meaning {
@@ -100,6 +104,7 @@ body {
 
     font-size: var(--font-size-medium);
     font-weight: var(--font-weight-large);
+    color: var(--white);
 }
 
 .result-text {
@@ -107,6 +112,7 @@ body {
     
     font-size: var(--font-size-small);
     font-weight: var(--font-weight-small);
+    color: var(--dark-gray-blue);
 }
 
 .summary-section {
