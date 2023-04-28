@@ -82,7 +82,7 @@ body {
 
     font-size: var(--font-size-medium);
     font-weight: var(--font-weight-small);
-    color: var(--dark-gray-blue);
+    color: var(--light-lavender);
 }
 
 .result-score {
@@ -90,7 +90,7 @@ body {
     
     font-size: var(--font-size-small);
     font-weight: var(--font-weight-small);
-    color: var(--dark-gray-blue);
+    color: var(--light-lavender);
 }
 
 .result-score span {
@@ -114,7 +114,7 @@ body {
     
     font-size: var(--font-size-small);
     font-weight: var(--font-weight-small);
-    color: var(--dark-gray-blue);
+    color: var(--light-lavender);
 }
 
 .summary-section {
