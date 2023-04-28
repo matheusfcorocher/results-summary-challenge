@@ -1,3 +1,5 @@
+@font-face { font-family: Hanken Grotesk; src: url('./assets/fonts/HankenGrotesk-VariableFont_wght.ttf'); } 
+
 :root {
     /*Colors*/
     /*Primary*/
@@ -19,8 +21,8 @@
     --dark-gray-blue: hsl(224, 30%, 27%);
 
     /*Typography*/
-    --font-family: 'Outfit', sans-serif;
-    --font-size-medium: 1rem;
+    --font-family: 'Hanken Grotesk', sans-serif;
+    --font-size-medium: 1.1rem;
     --font-size-large: 1.25rem;
 
     /*Spacing*/
@@ -35,6 +37,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: var(--font-family);
 }
 
 body {
