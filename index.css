@@ -38,6 +38,8 @@
     /*Screen Sizes*/
     --desktop-screen: 90rem; /*1440px*/
     --mobile-screen: 23.4375rem; /*375px*/
+
+    --section-height: 27rem; /*432px*/
 }
 
 * {
@@ -65,7 +67,7 @@ body {
 @media (min-width: 1440px) {
     .card {
         flex-direction: row;
-        width: var(--mobile-screen) * 2;
+        width: calc(var(--mobile-screen) * 2);
     }
 }
 
@@ -74,6 +76,7 @@ body {
     border-radius: var(--space-large);
 
     width: var(--mobile-screen);
+    height: var(--section-height);
 }
 
 .result-section {
