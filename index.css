@@ -81,7 +81,7 @@ body {
     flex-direction: column;
     align-items: center;
 
-    background: linear-gradient(var(--light-slate-blue), var(--violet-blue) 60%);
+    background: linear-gradient(var(--light-slate-blue), var(--violet-blue), var(--light-royal-blue) 90%);
 }
 
 .result-title {
