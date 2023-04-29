@@ -65,15 +65,15 @@ body {
 @media (min-width: 1440px) {
     .card {
         flex-direction: row;
-        width: 40rem;
+        width: var(--mobile-screen) * 2;
     }
 }
 
 .section {
-    padding: 2rem;
-    border-radius: 2rem;
+    padding: var(--space-large);
+    border-radius: var(--space-large);
 
-    width: 20rem;
+    width: var(--mobile-screen);
 }
 
 .result-section {
