@@ -28,11 +28,12 @@
     --font-weight-large: 800;
 
     --font-size-small: 1.125rem;
-    --font-size-medium: 1.5rem;
+    --font-size-medium: 1.6rem;
     --font-size-large: 2rem;
 
     /*Spacing*/
     --space-medium: 1rem;
+    --space-large: 2rem;
 
     /*Screen Sizes*/
     --desktop-screen: 90rem; /*1440px*/
@@ -64,27 +65,30 @@ body {
 @media (min-width: 1440px) {
     .card {
         flex-direction: row;
-        width: var(--mobile-screen)*2;
+        width: 40rem;
     }
 }
 
-.result-section {
-    padding: var(--space-medium);
-    border-radius: 1rem;
+.section {
+    padding: 2rem;
+    border-radius: 2rem;
 
-    width: var(--mobile-screen);
+    width: 20rem;
+}
+
+.result-section {
     display: flex;
     flex-direction: column;
     align-items: center;
 
-    background: linear-gradient(var(--light-slate-blue), var(--light-royal-blue));
+    background: linear-gradient(var(--light-slate-blue), var(--violet-blue) 60%);
 }
 
 .result-title {
-    margin-bottom: var(--space-medium);
+    margin-bottom: var(--space-large);
 
-    font-size: var(--font-size-medium);
-    font-weight: var(--font-weight-small);
+    font-size: var(--font-size-small);
+    font-weight: var(--font-weight-large);
     color: var(--light-lavender);
 }
 
@@ -93,7 +97,7 @@ body {
     height: 10rem;
     border-radius: 5rem;
     background: var(--violet-blue);
-    margin-bottom: var(--space-medium);
+    margin-bottom: var(--space-large);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -109,7 +113,7 @@ body {
 .result-score span {
     display: block;
     clear: both;
-    font-size: var(--font-size-large);
+    font-size: 3.5rem;
     font-weight: var(--font-weight-large);
     color: var(--white);
 }
@@ -131,9 +135,6 @@ body {
 }
 
 .summary-section {
-    padding: var(--space-medium);
-
-    width: var(--mobile-screen);
     display: flex;
     flex-direction: column;
     align-items: center;
