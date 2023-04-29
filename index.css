@@ -140,5 +140,19 @@ body {
 .summary-section {
     display: flex;
     flex-direction: column;
-    align-items: center;
+}
+
+.summary-title {
+    text-align: left;
+    margin-bottom: var(--space-large);
+}
+
+.summary-card {
+    margin-bottom: var(--space-medium);
+}
+
+.summary-button {
+    width: calc(var(--mobile-screen) - 4rem);
+    height: 3rem;
+    border-radius: 2rem;
 }
