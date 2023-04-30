@@ -163,6 +163,21 @@ body {
     justify-content: space-between;
 }
 
+.vision-background {
+    background: var(--light-red);
+}
+
+.memory-background {
+    background: var(--orange-yellow);
+}
+
+.verbal-background {
+    background: var(--green-teal);
+}
+
+.visual-background {
+    background: var(--cobalt-blue);
+}
 .summary-button {
     width: calc(var(--mobile-screen) - 4rem);
     height: 3rem;
