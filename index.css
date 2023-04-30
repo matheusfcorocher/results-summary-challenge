@@ -20,6 +20,12 @@
     --light-lavender: hsl(241, 100%, 89%);
     --dark-gray-blue: hsl(224, 30%, 27%);
 
+    /*Derived Colors*/
+    --light-red-transparent: hsl(0, 100%, 67%, 0.05);
+    --orange-yellow-transparent: hsl(39, 100%, 56%, 0.05);
+    --green-teal-transparent: hsl(166, 100%, 37%, 0.05);
+    --cobalt-blue-transparent: hsl(234, 85%, 45%, 0.05);
+
     /*Typography*/
     --font-family: 'Hanken Grotesk', sans-serif;
     
@@ -156,7 +162,7 @@ body {
     height: 4rem;
     padding: 1rem;
     margin-bottom: var(--space-medium);
-    background-color: aqua;
+    border-radius: 0.5rem;
 
     display: flex;
     flex-direction: row;
@@ -185,6 +191,22 @@ body {
 
 .visual-text {
     color: var(--cobalt-blue);
+}
+
+.reaction-background {
+    background: var(--light-red-transparent);
+}
+
+.memory-background {
+    background: var(--orange-yellow-transparent);
+}
+
+.verbal-background {
+    background: var(--green-teal-transparent);
+}
+
+.visual-background {
+    background: var(--cobalt-blue-transparent);
 }
 
 .icon {
