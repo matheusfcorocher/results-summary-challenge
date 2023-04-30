@@ -175,6 +175,10 @@ body {
     justify-content: space-between;
 }
 
+.summary-card:last-of-type {
+    margin-bottom: 2rem;
+}
+
 .summary-card-label {
     display: flex;
     flex-direction: row;
