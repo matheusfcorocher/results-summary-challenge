@@ -171,20 +171,20 @@ body {
     gap: 1rem;
 }
 
-.reaction-background {
-    background: var(--light-red);
+.reaction-text {
+    color: var(--light-red);
 }
 
-.memory-background {
-    background: var(--orange-yellow);
+.memory-text {
+    color: var(--orange-yellow);
 }
 
-.verbal-background {
-    background: var(--green-teal);
+.verbal-text {
+    color: var(--green-teal);
 }
 
-.visual-background {
-    background: var(--cobalt-blue);
+.visual-text {
+    color: var(--cobalt-blue);
 }
 
 .icon {
