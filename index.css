@@ -1,4 +1,7 @@
-@font-face { font-family: Hanken Grotesk; src: url('./assets/fonts/HankenGrotesk-VariableFont_wght.ttf'); } 
+@font-face {
+    font-family: Hanken Grotesk;
+    src: url('./assets/fonts/HankenGrotesk-VariableFont_wght.ttf');
+}
 
 :root {
     /*Colors*/
@@ -28,7 +31,7 @@
 
     /*Typography*/
     --font-family: 'Hanken Grotesk', sans-serif;
-    
+
     --font-weight-small: 500;
     --font-weight-medium: 700;
     --font-weight-large: 800;
@@ -42,10 +45,13 @@
     --space-large: 2rem;
 
     /*Screen Sizes*/
-    --desktop-screen: 90rem; /*1440px*/
-    --mobile-screen: 23.4375rem; /*375px*/
+    --desktop-screen: 90rem;
+    /*1440px*/
+    --mobile-screen: 23.4375rem;
+    /*375px*/
 
-    --section-height: 27rem; /*432px*/
+    --section-height: 27rem;
+    /*432px*/
 }
 
 * {
@@ -138,7 +144,7 @@ body {
 
 .result-text {
     margin-bottom: var(--space-medium);
-    
+
     font-size: var(--font-size-small);
     font-weight: var(--font-weight-small);
     color: var(--light-lavender);
@@ -152,7 +158,7 @@ body {
 .summary-title {
     text-align: left;
     font-size: var(--font-size-small);
-    font-weight: var(--font-weight-large);    
+    font-weight: var(--font-weight-large);
     color: var(--dark-gray-blue);
     margin-bottom: var(--space-large);
 }
@@ -213,6 +219,16 @@ body {
     display: inline-block;
     height: 1.5rem;
     width: 1.5rem;
+}
+
+.summary-value {
+    font-size: var(--font-size-small);
+    font-weight: var(--font-weight-large);
+    color: var(--light-lavender);
+}
+
+.summary-value span {
+    color: var(--dark-gray-blue);
 }
 
 .summary-button {
