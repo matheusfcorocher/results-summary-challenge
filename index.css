@@ -241,4 +241,10 @@ body {
     width: calc(var(--mobile-screen) - 4rem);
     height: 3rem;
     border-radius: 2rem;
+
+    background: var(--dark-gray-blue);
+    color: var(--white);
+
+    font-size: var(--font-size-small);
+    font-weight: var(--font-weight-small);
 }
