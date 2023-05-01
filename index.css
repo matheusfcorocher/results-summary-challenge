@@ -181,7 +181,7 @@ body {
 .summary-card {
     width: calc(var(--mobile-screen) - 4rem);
     height: 3rem;
-    padding: 1rem;
+    padding: 0.75rem;
     margin-bottom: var(--space-medium);
     border-radius: 0.5rem;
 
