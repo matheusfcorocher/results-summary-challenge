@@ -94,6 +94,16 @@ body {
     height: var(--section-height);
 }
 
+@media (max-width: 376px) {
+    .card {
+        border-radius: 0px 0px var(--space-large) var(--space-large);
+    }
+
+    .section {
+        border-radius: 0px 0px var(--space-large) var(--space-large);
+    }
+}
+
 .result-section {
     display: flex;
     flex-direction: column;
