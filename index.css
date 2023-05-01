@@ -160,12 +160,12 @@ body {
     font-size: var(--font-size-small);
     font-weight: var(--font-weight-large);
     color: var(--dark-gray-blue);
-    margin-bottom: var(--space-large);
+    margin-bottom: var(--space-medium);
 }
 
 .summary-card {
     width: calc(var(--mobile-screen) - 4rem);
-    height: 4rem;
+    height: 3rem;
     padding: 1rem;
     margin-bottom: var(--space-medium);
     border-radius: 0.5rem;
