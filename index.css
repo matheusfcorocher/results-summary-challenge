@@ -263,3 +263,7 @@ body {
     
     cursor: pointer;
 }
+
+.summary-button:hover {
+    background: linear-gradient(var(--light-slate-blue), var(--violet-blue), var(--light-royal-blue));
+}
