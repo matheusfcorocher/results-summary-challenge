@@ -150,6 +150,8 @@ body {
     font-size: var(--font-size-small);
     font-weight: var(--font-weight-small);
     color: var(--light-lavender);
+
+    margin: 0 2rem 0 2rem;
 }
 
 .summary-section {
